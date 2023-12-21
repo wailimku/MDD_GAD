@@ -311,7 +311,6 @@ def main():
     np.savetxt('path/to/your/anxiety_status.csv', z2, delimiter=',', fmt='%i')
     df_random.to_csv('path/to/your/perturbed_data_0.2.txt')
 
-#z1_loaded = np.loadtxt('/data/kuw/biocore/wlku/pipeline/kuw_analysis/minhua/depression_status_test.csv', delimiter=',')
 
 if __name__ == "__main__":
     main()
