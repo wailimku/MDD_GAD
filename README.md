@@ -39,6 +39,9 @@ python script_name.py --mode depression --type Difficulty_memorizing_lessons --k
 ### Outputs
 A CSV file containing the evaluation results of the model on the perturbed dataset. The file includes metrics like accuracy, recall, F1 score, and the custom composite score for each perturbed feature.
 
+### Visualization
+run the script "maketable.py" (Note: change input file)
+
 ### Notes
 Modify the file paths in the script according to your directory structure.
 
@@ -54,5 +57,4 @@ python script_name.py --mode depression --type Difficulty_memorizing_lessons --k
 ### Outputs
 A CSV file containing the evaluation results of the model on the perturbed dataset. The file includes metrics like accuracy, recall, F1 score, and the custom composite score for each perturbed feature.
 
-### Visualization
-run the script "maketable.py" (Note: change input file)
+
