@@ -20,7 +20,7 @@ data_preprocessing.py
 5) naivebayes_ablation_test.py
 
 ## Model comparison
-####Description
+### Description
 This script is designed to evaluate machine learning models for predicting mental health conditions, specifically depression and anxiety. It allows users to perturb specific features in the dataset to assess the stability of the model predictions under varying conditions.
 
 ### Command-Line Arguments
