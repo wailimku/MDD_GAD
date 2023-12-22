@@ -9,13 +9,10 @@ cd MDD_GAD.git
 pip install -r requirements.txt
 
 
-
-
-
 ## Data preprocessing script
 data_preprocessing.py
 
-## Ablation test script2
+## Ablation test scripts
 1) CNN_ablationtest.py
 2) Randomforest_ablation_test.py
 3) xgboost_ablation_test.py
@@ -44,7 +41,18 @@ A CSV file containing the evaluation results of the model on the perturbed datas
 
 ### Notes
 Modify the file paths in the script according to your directory structure.
-The script is designed to be flexible with different datasets and models.
+
+
+## Study of impacts of feature errors
+
+### How to Run
+Prepare Data: Place your datasets (original_processed_data.csv, depression_status.csv, and anxiety_status.csv) in the specified paths.
+Run the Script: Use the command line to navigate to the script's directory and run it using Python. Example command:
+
+python script_name.py --mode depression --type Difficulty_memorizing_lessons --kfold 10 --epochs 60
+
+### Outputs
+A CSV file containing the evaluation results of the model on the perturbed dataset. The file includes metrics like accuracy, recall, F1 score, and the custom composite score for each perturbed feature.
 
 ### Visualization
 run the script "maketable.py" (Note: change input file)
